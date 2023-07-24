@@ -5,7 +5,7 @@ __license__ = 'GPL 2.0/LGPL 2.1'
 __all__ = ('PhoneNumberForm',)
 
 from django import forms
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from fobi.base import BaseFormFieldPluginForm, get_theme
 from fobi.settings import DEFAULT_MAX_LENGTH
